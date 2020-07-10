@@ -1,0 +1,93 @@
+@media (min-width: 426px) {
+  .logo{
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 10px;
+  padding-bottom: 70px;
+}
+
+.Result {
+  position: relative;
+  display: inline-block;
+}
+
+.Result > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Result .text {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 25%;
+  font-size: 2rem;
+}
+
+.ResultTxt{
+    padding-top: 50px;
+    padding: 30px 30px;
+    padding-bottom: 30px;
+}
+
+.btnwrapper {
+  margin-bottom: 2%;
+  text-align: center;
+}
+
+.btn {
+  background-color: #fa7268;
+  border-radius: 50px;
+  width:fit-content; 
+}
+}
+@media (max-width: 425px) {
+  .logo{
+  width: 100%;
+  flex-grow: 0;
+  flex-shrink: 0;
+  padding: 10px;
+  padding-bottom: 70px;
+}
+
+.Result {
+  position: relative;
+  display: inline-block;
+}
+
+.Result > img {
+  max-width: 100%;
+  height: auto;
+}
+
+.Result .text {
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  top: 25%;
+  font-size: 1rem;
+}
+
+.ResultTxt{
+    padding-top: 50px;
+    padding: 30px 30px;
+    padding-bottom: 30px;
+}
+
+.btnwrapper {
+  text-align: center;
+  margin-bottom: 2%;
+}
+
+.btn {
+  background-color: #fa7268;
+  border-radius: 50px;
+  width:fit-content; 
+}
+}
+

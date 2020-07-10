@@ -1,0 +1,65 @@
+@media (max-width: 425px) {
+  .quizdescr > .topdesc {
+    display:none;
+  }
+  .qstNmbr {
+    position: relative;
+    display: inline-block;
+  }
+  .qstNmbr > img {
+    max-width: 100%;
+    height: auto;
+  }
+  .qstNmbr .text {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    font-size: 4vmin;
+  }
+}
+
+@media (min-width: 426px) {
+.topdesc > img {
+    width: 30%;
+    height: 75%;
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  .quizdescr > .topdesc {
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    padding-top: 5%;
+    padding-bottom: 5vh;
+    font-size: 1.5vmin;
+    position: relative;
+  }
+
+  .qstNmbr {
+    position: relative;
+    display: inline-block;
+    grid-column-end: 3;
+  }
+  
+  .qstNmbr > img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+    max-height: 100%;
+  }
+
+  .qstNmbr .text {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-align: center;
+    top: 25%;
+    font-size: 2vmax;
+    line-height: inherit;
+  }
+}

@@ -1,0 +1,86 @@
+[
+   {
+      "id": 1,
+      "question": "Jak długo prowadzisz swoje konto na LinkedIn?;?",
+      "options": [
+         {
+            "optionid": 1,
+            "option": "do 1 roku",
+            "points": 0,
+            "tip": "Super! Jedziemy dalej!"
+         },
+         {
+            "optionid": 2,
+            "option": "od 1-2 lat",
+            "points": 1,
+			   "tip": "Super! Jedziemy dalej!"
+         },
+         {
+            "optionid": 3,
+            "option": "powyżej 2 lata",
+            "points": 1,
+			   "tip": "To musisz być już niezłym wyjadaczem na tej platformie."
+         }
+      ]
+   },
+   {
+      "id": 2,
+      "question": "W jakim celu głównie używasz swojego konta na LinkedIn?",
+      "options": [
+         {
+            "optionid": 1,
+            "option": "Do szukania i nawiązywania relacji z klientami ",
+            "points": 0,
+			   "tip": "To dobrze! Jest to odpowiednia platforma społecznościowa do takiej aktywności."
+         },
+         {
+            "optionid": 2,
+            "option": "Do budowania swojej marki osobistej",
+            "points": 1,
+			   "tip": "To super, jest to odpowiednie miejsce do tego!"
+         },
+         {
+            "optionid": 3,
+            "option": "Do szukania pracy",
+            "points": 1,
+			   "tip": "Ok, bardzo dużo rekruterów korzysta z tego portalu. Na pewno ten quiz pomoże Ci jeszcze bardziej ulepszyć swój profil, aby był bardziej atrakcyjny."
+         },
+		   {
+            "optionid": 4,
+            "option": "Do innych celów",
+            "points": 1,
+			   "tip": "Ok, kolejne pytanie."
+         }
+      ]
+   },
+   {
+      "id": 3,
+      "question": "Jak wygląda Twoje zdjęcie profilowe?",
+      "options": [
+         {
+            "optionid": 1,
+            "option": "Jest to moje zdjęcie na którym dobrze mnie widać",
+            "points": 0,
+			   "tip": "To bardzo dobrze, na pewno przyciąga wzrok! "
+         },
+         {
+            "optionid": 2,
+            "option": "Jest to moje zdjęcie, ale nie widać mnie na nim za dobrze",
+            "points": 0,
+			   "tip": "Proponujemy w takim razie abyś zmienił swoje obecne zdjęcie profilowe na takie, na którym lepiej Cię widać. Najlepiej, aby było to zdjęcie twarzy, ponieważ takie zdjęcia bardziej przyciągają uwagę. "
+         },
+         {
+            "optionid": 3,
+            "option": "Jest to logo albo nazwa mojej firmy/ marki",
+            "points": 0,
+			   "tip": "Ok, kolejne pytanie."
+         },
+         {
+            "optionid": 4,
+            "option": "Nie mam ustawionego zdjęcia profilowego",
+            "points": 0,
+			   "tip": "Oj, to niedobrze! Polecamy abyś jak najszybciej dodał zdjęcie profilowe. Najlepiej, aby było to twoje zdjęcie, na którym dobrze cię widać.  "
+         }
+      ]
+   }
+]

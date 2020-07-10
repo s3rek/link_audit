@@ -1,0 +1,10 @@
+a > fa-icon {
+    display: flex;
+    margin: 20px;
+    height: 28px;
+    width: 28px;
+    border-radius: 5px;
+    background-color: white;
+    align-items: center;
+  }
+  

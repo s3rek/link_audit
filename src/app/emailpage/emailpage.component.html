@@ -1,0 +1,28 @@
+<div class="logo"><img src="assets/images/logo.png" alt="exago_logo" /></div>
+<div class="header">
+  <span>
+    Zaraz przejdziemy do ostatniego pytania, ale najpierw szybka informacja - w
+    Exago Media zawodowo zajmujemy się konsultacjami i szkoleniami z prowadzenia
+    konta na LinkedIn.<br />Chcesz porozmawiac z nami o współpracy?
+  </span>
+</div>
+<span>Zostaw tu swojego maila:</span>
+<div class="Email">
+  <img src="assets/images/outunder.png" alt="under" />
+  <form [formGroup]="registerForm" (ngSubmit)="Submit()">
+    <div class="form-group">
+      <input type="text" formControlName="email" class="form-control" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" autofocus placeholder="adres email"/>
+      <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+          <div *ngIf="f.email.errors.email">Podaj poprawny adres email</div>
+      </div>
+  </div>
+</form>
+</div>
+<div class="btnwrapper">
+  <button type="button" class="btn" (click)="Back()">
+    <b> Wstecz </b>
+  </button>
+  <button type="button" class="btn" (click)="Submit()">
+    <b> Poznaj swój wynik </b>
+  </button>
+</div>

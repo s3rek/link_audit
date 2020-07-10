@@ -1,0 +1,15 @@
+.modal-body{
+    text-align: center;
+    font-size: large;
+}
+
+.modal-footer {
+    justify-content: center;
+}
+
+.btn {
+    background-color: #fa7268;
+    border-radius: 50px;
+    width:fit-content; 
+    width: 10em;
+  }

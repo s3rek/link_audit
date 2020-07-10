@@ -1,0 +1,41 @@
+[
+    {
+       "id":1,
+       "category":"Entertainment: Video Games",
+       "type":"multiple",
+       "difficulty":"easy",
+       "question":"Who is the main character in &quot;The Stanley Parable&quot;?",
+       "correct_option":"Stanley",
+       "options": [
+          {"optionid": 1 ,"option": "The Adventure Line","points": 1},
+          {"optionid": 2 ,"option": "The Narrator","points": 2},
+          {"optionid": 3 ,"option": "The Boss","points": 3}
+         ]
+    },
+    {
+       "id":2,
+       "category":"Entertainment: Japanese Anime & Manga",
+       "type":"multiple",
+       "difficulty":"easy",
+       "question":"What is the last name of Edward and Alphonse in the Fullmetal Alchemist series.",
+       "correct_option":"Elric",
+       "options": [
+         {"optionid": 1 ,"option": "Ellis","points": 3},
+         {"optionid": 2 ,"option": "Eliek","points": 4},
+         {"optionid": 3 ,"option": "Elwood","points": 5}
+        ]
+    },
+    {
+       "id":3,
+       "category":"Celebrities",
+       "type":"multiple",
+       "difficulty":"medium",
+       "question":"What year did radio icon Howard Stern start a job at radio station WNBC?",
+       "correct_option":"1982",
+       "options": [
+         {"optionid": 1 ,"option": "1985","points": 3},
+         {"optionid": 2 ,"option": "1984","points": 4},
+         {"optionid": 3 ,"option": "1995","points": 5}
+        ]
+    }
+ ]

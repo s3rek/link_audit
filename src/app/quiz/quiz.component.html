@@ -1,0 +1,59 @@
+<img class="circle" src="assets/images/circle.png" alt="circle" />
+<app-startscreen
+  *ngIf="endScreen === 'start'"
+  (onStart)="Next()"
+  class="startScreen"
+></app-startscreen>
+<app-descr
+  *ngIf="endScreen === 'false'"
+  [index]="index"
+  class="quizdescr"
+></app-descr>
+<app-emailpage
+  *ngIf="endScreen === 'preend'"
+  (onBack)="Back()"
+  (onSubmit)="Next(); SubmitResults($event)"
+  class="PreendScreen"
+></app-emailpage>
+<app-endscreen
+  *ngIf="endScreen === 'end'"
+  class="endScreen"
+  [Results]="Results"
+></app-endscreen>
+<div *ngIf="endScreen === 'false'" class="QuizWindow">
+  <div *ngFor="let question of filteredQuestions">
+    <div class="question">
+      <span>
+        <b>{{ question.question }}</b>
+      </span>
+    </div>
+    <form>
+      <div
+        *ngFor="let option of question.options"
+        class="btn-group"
+        role="group"
+        (change)="open(option, question.options)"
+      >
+        <label class="btn">
+          <div class="checkbox">
+            <input type="radio" name="radiogroup" [checked]="option.option == LoadAnswers" />
+            <img />
+          </div>
+          <b>{{ option.option }}</b>
+        </label>
+      </div>
+      <div class="alert" *ngIf = "submitted && !optionselected">
+        <span><b> Wybierz jedną z odpowiedzi!</b></span>
+      </div>
+      <div class="controls">
+        <button type="button" class="navbtn" (click)="Back()">
+          <b>WSTECZ</b>
+        </button>
+        <button type="button" class="navbtn" (click)="SubmitForm()">
+          <b>DALEJ</b>
+        </button>
+      </div>
+    </form>
+  </div>
+</div>
+<app-footer class="footer"></app-footer>
